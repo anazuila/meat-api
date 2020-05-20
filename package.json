@@ -1,0 +1,54 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Api de Restaurantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node jest.startup.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "globals": {
+      "address": "http://localhost:3001",
+      "auth": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJpYXQiOjE1MTYyMzkwMjJ9.HCtLeNy5-33THRqf03ayTWV0UiTNEuBgKzE-G_03d3g"
+    },
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.[jt]sx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx",
+      "ts",
+      "tsx",
+      "node"
+    ]
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "4.13.9",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/jsonwebtoken": "^8.3.9",
+    "@types/mongoose": "4.7.32",
+    "@types/restify": "^8.4.2",
+    "@types/restify-cors-middleware": "^1.0.1",
+    "@types/supertest": "^2.0.9",
+    "eslint": "^6.8.0",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1",
+    "restify": "^8.5.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^25.5.0",
+    "ts-node": "5.0.1",
+    "typescript": "^3.8.3"
+  }
+}
