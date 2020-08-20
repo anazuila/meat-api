@@ -29,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "4.13.9",
     "restify-cors-middleware": "^1.1.1",
