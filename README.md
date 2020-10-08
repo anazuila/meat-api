@@ -20,4 +20,4 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=meat-api&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fanazuila%2Fmeat-api%2Fmaster%2Fexport.json)
 
-Made with ♥ by Ana Zuila Castro :raising_hand: [Get in touch!](https://www.linkedin.com/in/anazuilacastro/)
+Made with  ♥  by Ana Zuila Castro :raising_hand: [Get in touch!](https://www.linkedin.com/in/anazuilacastro/)
